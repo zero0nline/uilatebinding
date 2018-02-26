@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 507071767
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0fa37021d48aba86c9c01b7bb52ed239
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 819f082603b9a0242c38fefc9db4d50d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/New Sprite.prefab
+Dependencies: []

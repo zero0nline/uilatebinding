@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ui
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 854c075445a4b2948ba63cf95a9264e3, type: 3}
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4c82143c7ab6e894a8564f8ebb01c863, type: 3}
+  - {fileID: 21300000, guid: b480a1bb6cbbfdf4e9ab9627f228855e, type: 3}
+  - {fileID: 21300000, guid: b1add5556ad1dbe46ba34d68d18903c1, type: 3}
+  - {fileID: 21300000, guid: 00193e6ffcb259a43804ca1cd451bf54, type: 3}
+  - {fileID: 21300000, guid: 092dd6683a077e24d9d65f06a8c6c1f1, type: 3}
+  - {fileID: 21300000, guid: dced215069144e04a96628b1ffdbb605, type: 3}
+  - {fileID: 21300000, guid: e138010ec63f50847b62e856913a979b, type: 3}
+  - {fileID: 21300000, guid: 214b72d8f2a59994ba92a0d6db2116df, type: 3}
+  - {fileID: 21300000, guid: d51cdea7a9f032a4d8f43acd2cf83da9, type: 3}
+  - {fileID: 21300000, guid: e0ae6630a0f4f404bbd20812df5024d6, type: 3}
+  - {fileID: 21300000, guid: 689bc213497b3ab429b468b200ea7f39, type: 3}
+  - {fileID: 21300000, guid: c292c214792b1cf42b0554560402d1b7, type: 3}
+  - {fileID: 21300000, guid: 4a41b30349788254b97d770284cc5142, type: 3}
+  - {fileID: 21300000, guid: 978e906d124d7974d9c3a724489b3f86, type: 3}
+  - {fileID: 21300000, guid: 9892f9d0d98041e40a47cd6fa3957603, type: 3}
+  - {fileID: 21300000, guid: 11c66b4190b7aab41922be55a01eccb8, type: 3}
+  - {fileID: 21300000, guid: a62be13ab15ea1547a8d9a60af394244, type: 3}
+  - {fileID: 21300000, guid: 45218448e1602964d96491a721d518ee, type: 3}
+  - {fileID: 21300000, guid: 2aafd622beae95846b3f56d472a3c691, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - preloader_main
+  - popup_back
+  - booster_hammer
+  - booster_cross
+  - booster_color_crush
+  - prebooster_rocket_x2
+  - prebooster_rocket
+  - life
+  - daily_bonus_item_bg
+  - no_lives_icon
+  - bank_item_icon_6
+  - bank_item_icon_5
+  - bank_item_icon_3
+  - bank_item_icon_2
+  - bank_item_icon_4
+  - bank_item_icon_1
+  - prebooster_available_back
+  - button_green_normal
+  - button_red_normal
+  m_Tag: ui
+  m_IsVariant: 0

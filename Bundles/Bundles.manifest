@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3050876758
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: prefabs/items
+      Dependencies: {}
+    Info_1:
+      Name: prefabs/bundle_2
+      Dependencies: {}
+    Info_2:
+      Name: atlases/ui
+      Dependencies: {}
+    Info_3:
+      Name: prefabs/bundle_1
+      Dependencies: {}
