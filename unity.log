@@ -1,6 +1,6 @@
-[Package Manager] Server::Start -- Port 61831 was selected
+[Package Manager] Server::Start -- Port 59132 was selected
 
-LICENSE SYSTEM [2018226 19:21:22] Next license update check is after 2018-02-27T11:25:14
+LICENSE SYSTEM [2018226 19:55:29] Next license update check is after 2018-02-27T11:25:14
 
 
  COMMAND LINE ARGUMENTS:
@@ -12,16 +12,18 @@ LICENSE SYSTEM [2018226 19:21:22] Next license update check is after 2018-02-27T
 /Users/alt/Projects/Unity/uilatebinding/unity.log
 -projectPath
 /Users/alt/Projects/Unity/uilatebinding
--buildWindowsPlayer
-/Users/alt/Projects/Unity/uilatebinding/Build/windows/uilatebinding.exe
+-buildTarget
+Android
+/Users/alt/Projects/Unity/uilatebinding/Build/android/uilatebinding.apk
 -quit
 Successfully changed project path to: /Users/alt/Projects/Unity/uilatebinding
 /Users/alt/Projects/Unity/uilatebinding
 Loading GUID <-> Path mappings...0.000039 seconds
-Loading Asset Database...0.005345 seconds
+Loading Asset Database...0.005342 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.027032 seconds
-Refreshing native plugins compatible for Editor in 3.10 ms, found 0 plugins.
+AssetDatabase consistency checks...0.027260 seconds
+Targeting platform: Android
+Refreshing native plugins compatible for Editor in 3.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Resolving 4 packages:
@@ -45,25 +47,25 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0'
 Mono config path = '/Applications/Unity/Unity.app/Contents/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56285
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56563
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000331 seconds.
-Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Registered in 0.000340 seconds.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 1.58 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.560 seconds
+- Completed reload, in  0.568 seconds
 Registering platform support modules:
-Registered platform support modules in: 0,077929s.
+Registered platform support modules in: 0,079912s.
 Native extension for OSXStandalone target not found
 Begin MonoManager ReloadAssembly
 Registering precompiled user dll's ...
-Registered in 0.009944 seconds.
+Registered in 0.010058 seconds.
 Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.36 ms.
-[Rider] 19:21:24:95 [Info] Rider plugin initialized. You may change the amount of Rider Debug output via Edit -> Preferences -> Rider -> Logging Level
+[Rider] 19:55:32:52 [Info] Rider plugin initialized. You may change the amount of Rider Debug output via Edit -> Preferences -> Rider -> Logging Level
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -79,19 +81,54 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/buil
 (Filename: Assets/Plugins/Editor/JetBrains/Unity3DRider.cs Line: 489)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.514 seconds
+- Completed reload, in  0.515 seconds
 Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1f1
 Registering platform support modules:
-Registered platform support modules in: 0,047026s.
+Registered platform support modules in: 0,048125s.
 Native extension for OSXStandalone target not found
-Validating Project structure ... 0.001360 seconds.
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.038024 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 3 milliseconds
+Pass: 1 took 14 milliseconds
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.40 ms.
+[Rider] 19:55:34:50 [Info] Rider plugin initialized. You may change the amount of Rider Debug output via Edit -> Preferences -> Rider -> Logging Level
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Plugins.Editor.JetBrains.RiderPlugin:Log(LoggingLevel, String) (at Assets/Plugins/Editor/JetBrains/Unity3DRider.cs:489)
+Plugins.Editor.JetBrains.RiderPlugin:InitRiderPlugin() (at Assets/Plugins/Editor/JetBrains/Unity3DRider.cs:688)
+Plugins.Editor.JetBrains.RiderPlugin:.cctor() (at Assets/Plugins/Editor/JetBrains/Unity3DRider.cs:673)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs:101)
+UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/builduser/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:136)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/builduser/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:162)
+ 
+(Filename: Assets/Plugins/Editor/JetBrains/Unity3DRider.cs Line: 489)
 
------ Total AssetImport time: 0.036163s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1f1
+Registering platform support modules:
+Registered platform support modules in: 0,042543s.
+Native extension for OSXStandalone target not found
+Validating Project structure ... 0.001388 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.038774 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
 
-Warming cache for 170 main assets: 0.000296 seconds elapsed
+----- Total AssetImport time: 0.037462s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Warming cache for 170 main assets: 0.000409 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -119,49 +156,26 @@ Initializing Unity extensions:
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 240.0 MB.
-System memory in use after: 240.0 MB.
+Unloading 105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.3 MB.
+System memory in use after: 240.4 MB.
 
 Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 663.
-Total: 1.800604 ms (FindLiveObjects: 0.752183 ms CreateObjectMapping: 0.029590 ms MarkObjects: 0.999862 ms  DeleteObjects: 0.018318 ms)
+Total: 1.658170 ms (FindLiveObjects: 0.690456 ms CreateObjectMapping: 0.016222 ms MarkObjects: 0.847151 ms  DeleteObjects: 0.101678 ms)
 
-building x86 windows player!
-Error building player because build target was unsupported
- 
-(Filename:  Line: -1)
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.034412 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.0 MB.
-System memory in use after: 260.1 MB.
+----- Total AssetImport time: 0.041646s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 2.868341 ms (FindLiveObjects: 0.632061 ms CreateObjectMapping: 0.018457 ms MarkObjects: 2.205981 ms  DeleteObjects: 0.011328 ms)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.034335 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
 
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.022441 ms 
-Setting up 3 worker threads for Enlighten.
-  Thread -> id: 7000103f4000 -> priority: 1 
-  Thread -> id: 700010477000 -> priority: 1 
-  Thread -> id: 7000104fa000 -> priority: 1 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 259.7 MB.
-System memory in use after: 259.9 MB.
+----- Total AssetImport time: 0.035396s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 3.063933 ms (FindLiveObjects: 0.788277 ms CreateObjectMapping: 0.019290 ms MarkObjects: 2.249259 ms  DeleteObjects: 0.006777 ms)
-
-
-*** Cancelled 'Build.Player.WindowsStandaloneSupport' in 0 seconds (476 ms)
-
-Error building player because build target was unsupported
- 
-(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/BuildReporting/BuildReport.cpp Line: 476)
-
-Failed to build player.
- 
-(Filename: /Users/builduser/buildslave/unity/build/Runtime/Utilities/Argv.cpp Line: 226)
-
-
-Aborting batchmode due to failure:
-Failed to build player.
-
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!
