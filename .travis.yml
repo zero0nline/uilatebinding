@@ -1,17 +1,7 @@
-language: android
-#osx_image: xcode8.3
+language: objective-c
+osx_image: xcode8.3
 
-android:
-  components:
-    - tools
-    - platform-tools
-    - tools
 
-    # The BuildTools version used by your project
-    - build-tools-25.2.3
-
-    # The SDK version used to compile your project
-    - android-25
 
 rvm:
 - 2.2
@@ -24,7 +14,7 @@ before_install:
 - chmod a+x ./travis/install.sh
 - chmod a+x ./travis/build.sh
 
-- ./travis/env_test.sh
+#- ./travis/env_test.sh
 
 install:
 - ./travis/install.sh
