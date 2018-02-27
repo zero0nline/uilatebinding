@@ -16,8 +16,8 @@ rvm:
 - 2.2
 
 before_install:
-- mkdir travis_build
-- chmod a+rwx travis_build
+- mkdir build
+- chmod a+rwx build
 
 - chmod a+x ./travis/install.sh
 - chmod a+x ./travis/build.sh
@@ -28,14 +28,14 @@ install:
 script:
 - ./travis/build.sh
 
-before_deploy:
-- ls -l /travis_build/app.apk
-- cp /travis_build/app.apk .
+#before_deploy:
+#- ls -l /build/app.apk
+#- cp /build/app.apk .
 
 deploy:
   provider: testfairy
   api-key: "2d29db8bf7b2d619e995d2725f50db96f9564f42"
-  app-file: app.apk
+  app-file: build/application.apk
   keystore-file: user.keystore
   storepass: 12345678
   alias: alias
