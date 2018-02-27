@@ -1,5 +1,5 @@
-language: objective-c
-osx_image: xcode8.3
+language: android
+#osx_image: xcode8.3
 
 android:
   components:
