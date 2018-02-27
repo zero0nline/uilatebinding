@@ -17,6 +17,8 @@ before_install:
 #- ./travis/env_test.sh
 
 install:
+- curl -o android-sdk.zip http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip
+- unzip android-sdk.zip
 - ./travis/install.sh
 
 script:
