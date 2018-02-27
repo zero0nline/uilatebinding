@@ -7,7 +7,7 @@ projectdir="$(dirname "$(pwd)")"
 echo projectpath is $projectdir
 
 echo "Attempting to build $project for Android"
-/Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -nographics -silent-crashes -logFile $projectdir/unity.log -projectPath $projectdir  -executeMethod Editor.AppBuilder.BuildAndroid -quit
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -nographics -silent-crashes -logFile $projectdir/unity.log -projectPath $projectdir -buildTarget Android -executeMethod Editor.AppBuilder.BuildAndroid -quit
 
 echo 'Logs from build'
 cat $projectdir/unity.log
