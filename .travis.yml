@@ -15,9 +15,12 @@ android:
 rvm:
 - 2.2
 before_install:
+- mkdir travis_build
+- chmod a+rwx travis_build
+
 - chmod a+x ./travis/install.sh
 - chmod a+x ./travis/build.sh
-- chmod a+rw ./build
+
 install:
 - ./travis/install.sh
 script:
@@ -26,7 +29,7 @@ script:
 deploy:
   provider: testfairy
   api-key: "2d29db8bf7b2d619e995d2725f50db96f9564f42"
-  app-file: ./build/uilatebinding.apk
+  app-file: ./travis_build/app.apk
   keystore-file: user.keystore
   storepass: 12345678
   alias: alias
