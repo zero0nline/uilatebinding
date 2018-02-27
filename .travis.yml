@@ -14,6 +14,7 @@ android:
 
 rvm:
 - 2.2
+
 before_install:
 - mkdir travis_build
 - chmod a+rwx travis_build
@@ -23,12 +24,13 @@ before_install:
 
 install:
 - ./travis/install.sh
+
 script:
 - ./travis/build.sh
 
 before_deploy:
-  ls -l /travis_build/app.apk
-  cp /travis_build/app.apk .
+- ls -l /travis_build/app.apk
+- cp /travis_build/app.apk .
 
 deploy:
   provider: testfairy
