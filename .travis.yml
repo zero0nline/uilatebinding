@@ -22,3 +22,12 @@ install:
 - ./travis/install.sh
 script:
 - ./travis/build.sh
+
+deploy:
+  provider: testfairy
+  api-key: "2d29db8bf7b2d619e995d2725f50db96f9564f42"
+  app-file: Build/uilatebinding.apk
+  keystore-file: user.keystore
+  storepass: 12345678
+  alias: alias
+  auto-update: true
