@@ -1,8 +1,8 @@
 #! /bin/sh
 
 project="uilatebinding"
-#projectdir="$(dirname "$(pwd)")"
-projectdir="/Users/alt/Projects/Unity/uilatebinding"
+projectdir="$(dirname "$(pwd)")"
+#projectdir="/Users/alt/Projects/Unity/uilatebinding"
 
 echo projectpath is $projectdir
 
