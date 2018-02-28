@@ -1,7 +1,5 @@
 language: objective-c
-osx_image: xcode8.3
-
-
+osx_image: xcode9.2
 
 rvm:
 - 2.2
@@ -14,19 +12,17 @@ before_install:
 - chmod a+x ./travis/install.sh
 - chmod a+x ./travis/build.sh
 
+- brew install android-sdk
+- export ANDROID_HOME=/usr/local/opt/android-sdk
+- echo y | android update sdk --no-ui --all --filter "android-25,build-tools-25.0.2platform-tools,extra-android-m2repository,extra-google-m2repository
+
 #- ./travis/env_test.sh
 
 install:
-- curl -o android-sdk.zip http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip
-- unzip android-sdk.zip
 - ./travis/install.sh
 
 script:
 - ./travis/build.sh
-
-#before_deploy:
-#- ls -l /build/app.apk
-#- cp /build/app.apk .
 
 deploy:
   provider: testfairy

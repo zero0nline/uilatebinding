@@ -12,6 +12,9 @@ namespace Editor
         
         private static void BuildApp(BuildTarget target)
         {
+            /*EditorPrefs.SetString("AndroidSdkRoot", "/Users/alt/Library/Android/sdk");
+            EditorPrefs.SetString("JdkPath", "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home");*/
+            
             var options = new BuildPlayerOptions();
             options.locationPathName = "build/application.apk";
 
